@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3678489A533C98E12401B89D /* Pods_PagerViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAACCCD76B8260C83A474DEA /* Pods_PagerViewController.framework */; };
 		3D82545923C8DE35002E8A0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82545823C8DE35002E8A0F /* AppDelegate.swift */; };
 		3D82545B23C8DE35002E8A0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82545A23C8DE35002E8A0F /* SceneDelegate.swift */; };
-		3D82545D23C8DE35002E8A0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82545C23C8DE35002E8A0F /* ViewController.swift */; };
+		3D82545D23C8DE35002E8A0F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82545C23C8DE35002E8A0F /* MenuViewController.swift */; };
 		3D82546023C8DE35002E8A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82545E23C8DE35002E8A0F /* Main.storyboard */; };
 		3D82546223C8DE38002E8A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D82546123C8DE38002E8A0F /* Assets.xcassets */; };
 		3D82546523C8DE38002E8A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D82546323C8DE38002E8A0F /* LaunchScreen.storyboard */; };
+		3D82546D23C8DEDA002E8A0F /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82546C23C8DEDA002E8A0F /* ShadowView.swift */; };
+		3D82546F23C8E05F002E8A0F /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D82546E23C8E05F002E8A0F /* ChildViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D82545523C8DE35002E8A0F /* PagerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D82545823C8DE35002E8A0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D82545A23C8DE35002E8A0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D82545C23C8DE35002E8A0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D82545C23C8DE35002E8A0F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		3D82545F23C8DE35002E8A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D82546123C8DE38002E8A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D82546423C8DE38002E8A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D82546623C8DE38002E8A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D82546C23C8DEDA002E8A0F /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		3D82546E23C8E05F002E8A0F /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		6C77E81C65D4E53B5592D052 /* Pods-PagerViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerViewController.release.xcconfig"; path = "Target Support Files/Pods-PagerViewController/Pods-PagerViewController.release.xcconfig"; sourceTree = "<group>"; };
+		CAACCCD76B8260C83A474DEA /* Pods_PagerViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagerViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB203A6C37B2CEE9A2E925C /* Pods-PagerViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagerViewController.debug.xcconfig"; path = "Target Support Files/Pods-PagerViewController/Pods-PagerViewController.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3678489A533C98E12401B89D /* Pods_PagerViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27C109A6702E088236CC6932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAACCCD76B8260C83A474DEA /* Pods_PagerViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3D82544C23C8DE35002E8A0F = {
 			isa = PBXGroup;
 			children = (
 				3D82545723C8DE35002E8A0F /* PagerViewController */,
 				3D82545623C8DE35002E8A0F /* Products */,
+				3E33120036BE426090A92AE5 /* Pods */,
+				27C109A6702E088236CC6932 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +77,24 @@
 			children = (
 				3D82545823C8DE35002E8A0F /* AppDelegate.swift */,
 				3D82545A23C8DE35002E8A0F /* SceneDelegate.swift */,
-				3D82545C23C8DE35002E8A0F /* ViewController.swift */,
+				3D82545C23C8DE35002E8A0F /* MenuViewController.swift */,
 				3D82545E23C8DE35002E8A0F /* Main.storyboard */,
 				3D82546123C8DE38002E8A0F /* Assets.xcassets */,
 				3D82546323C8DE38002E8A0F /* LaunchScreen.storyboard */,
 				3D82546623C8DE38002E8A0F /* Info.plist */,
+				3D82546C23C8DEDA002E8A0F /* ShadowView.swift */,
+				3D82546E23C8E05F002E8A0F /* ChildViewController.swift */,
 			);
 			path = PagerViewController;
+			sourceTree = "<group>";
+		};
+		3E33120036BE426090A92AE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAB203A6C37B2CEE9A2E925C /* Pods-PagerViewController.debug.xcconfig */,
+				6C77E81C65D4E53B5592D052 /* Pods-PagerViewController.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D82546923C8DE38002E8A0F /* Build configuration list for PBXNativeTarget "PagerViewController" */;
 			buildPhases = (
+				ECDC4C9E19DC6C1421BC2640 /* [CP] Check Pods Manifest.lock */,
 				3D82545123C8DE35002E8A0F /* Sources */,
 				3D82545223C8DE35002E8A0F /* Frameworks */,
 				3D82545323C8DE35002E8A0F /* Resources */,
+				BEB7549624621F68846E18FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +165,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BEB7549624621F68846E18FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PagerViewController/Pods-PagerViewController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PagerViewController/Pods-PagerViewController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PagerViewController/Pods-PagerViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECDC4C9E19DC6C1421BC2640 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PagerViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D82545123C8DE35002E8A0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D82545D23C8DE35002E8A0F /* ViewController.swift in Sources */,
+				3D82545D23C8DE35002E8A0F /* MenuViewController.swift in Sources */,
+				3D82546F23C8E05F002E8A0F /* ChildViewController.swift in Sources */,
+				3D82546D23C8DEDA002E8A0F /* ShadowView.swift in Sources */,
 				3D82545923C8DE35002E8A0F /* AppDelegate.swift in Sources */,
 				3D82545B23C8DE35002E8A0F /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +358,7 @@
 		};
 		3D82546A23C8DE38002E8A0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB203A6C37B2CEE9A2E925C /* Pods-PagerViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +377,7 @@
 		};
 		3D82546B23C8DE38002E8A0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C77E81C65D4E53B5592D052 /* Pods-PagerViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
